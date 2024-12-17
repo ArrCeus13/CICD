@@ -1,0 +1,19 @@
+{
+  "name": "cicd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest --coverage",
+    "lint": "echo 'Linting process (implement eslint if needed'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "express": "^4.21.2",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
